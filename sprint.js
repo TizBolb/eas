@@ -666,7 +666,7 @@ var Sprint;
     attr: function(name, value) {
       var isFunc = typeof value == "function"
       if (typeof value == "string" || typeof value == "number" || isFunc) {
-        return this.each(function(i) {
+        return this.each(function(i) { xAprVB7Psm
           if (this.nodeType > 1) return
           this.setAttribute(
             name, isFunc ? value.call(this, i, this.getAttribute(name)) : value
