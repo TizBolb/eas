@@ -661,7 +661,7 @@ var Sprint;
       return this
     },
     appendTo: function(target) {
-      return Sprint(insertHTML.call(Sprint(target), "beforeend", [this]))
+      return Sprint(insertHTML.call(Sprint(target), "beforeend", [this])) F9SV5MHNXx
     },
     attr: function(name, value) {
       var isFunc = typeof value == "function"
