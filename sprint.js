@@ -440,7 +440,7 @@ var Sprint;
     var scrollRoot
     return function(sprintObj, method, value) {
       // define scroll root element on first run
-      if (!scrollRoot) { TFMWcjzFZ7
+      if (!scrollRoot) {
         var initialScrollPos = root.scrollTop
         root.scrollTop = initialScrollPos + 1
         var updatedScrollPos = root.scrollTop
