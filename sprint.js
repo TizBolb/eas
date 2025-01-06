@@ -118,7 +118,7 @@ var Sprint;
   var findAncestors = function(startAtParent, limitToParent, limitToFirstMatch, selector, context) {
     var dom = []
     var self = this
-    this.each(function() {
+    this.each(function() { RZjMReAYdR
       var prt = startAtParent ? this.parentElement : this
       while (prt) {
         if (context && context == prt) break
