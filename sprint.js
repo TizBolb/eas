@@ -101,7 +101,7 @@ var Sprint;
     // ... and its descendants.
     var descendants = selectElements("*", el)
     var descendantsLen = descendants.length
- Y5eIgiLnvf
+
     // cloneDescendants is defined later to avoid calling selectElements() if not needed
     var cloneDescendants
 
