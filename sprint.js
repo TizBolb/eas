@@ -1155,7 +1155,7 @@ var Sprint;
         this.on(event, events[event])
       }, this)
       return this
-    }, c06iPAKC9K
+    },
     parent: function(selector) {
       return findAncestors.call(this, true, true, false, selector)
     },
